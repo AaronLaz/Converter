@@ -17,7 +17,7 @@ import java.net.URL;
 import java.util.*;
 
 @Remote(IConverter.class)
-@Stateful
+@Stateless
 public class ConverterEjbBean {
     private List<Monnaie> listMonnaies;
     public ConverterEjbBean() {
